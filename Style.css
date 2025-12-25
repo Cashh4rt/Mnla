@@ -1,0 +1,17 @@
+* { box-sizing: border-box; margin: 0; padding: 0; font-family: sans-serif; }
+body { background: #fff; }
+nav { padding: 15px 20px; display: flex; justify-content: space-between; border-bottom: 1px solid #eee; position: sticky; top: 0; background: white; z-index: 10; }
+.logo { font-weight: bold; letter-spacing: 2px; }
+.hero { background: #000; height: 60vh; color: white; display: flex; align-items: center; justify-content: center; text-align: center; }
+.hero-btn { background: #fff; color: #000; padding: 10px 20px; text-decoration: none; font-weight: bold; }
+.voting-header { text-align: center; padding: 40px 20px; }
+.date { font-size: 2rem; font-weight: 900; }
+.grid-container { padding: 10px; }
+.candidate-card { margin-bottom: 30px; border: 1px solid #eee; }
+.candidate-card img { width: 100%; display: block; }
+.card-info { padding: 20px; text-align: center; }
+.name { font-size: 1.5rem; font-weight: bold; margin-bottom: 15px; }
+.vote-btn { display: block; padding: 12px; border: 2px solid #000; color: #000; text-decoration: none; font-weight: bold; }
+.newsletter { padding: 60px 20px; background: #fafafa; text-align: center; }
+.newsletter input { width: 100%; max-width: 400px; padding: 12px; margin-bottom: 10px; display: block; margin-left: auto; margin-right: auto; }
+.sub-btn { width: 100%; max-width: 400px; padding: 12px; background: #000; color: #fff; border: none; font-weight: bold; }
